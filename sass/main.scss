@@ -1,0 +1,31 @@
+@import './utils/variables';
+@import './utils/utils';
+
+body {
+    
+    background-color: $white-color;
+    color: $main-text-color;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    
+}
+
+@import './components/sections';
+@import './components/header';
+@import './components/logo';
+@import './components/navigation';
+@import './components/contacts';
+@import './components/hero';
+@import './components/activities';
+@import './components/advantages';
+@import './components/team';
+@import './components/social-links';
+@import './components/filter';
+@import './components/portfolio-cards';
+@import './components/clients';
+@import './components/page-footer';
+@import './components/subscription';
+@import './components/order-form';
+
+
+

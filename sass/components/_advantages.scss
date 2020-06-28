@@ -1,0 +1,38 @@
+.advantages-section {
+    padding-top: 94px;
+    padding-bottom: 0;
+}
+
+.advantages {
+
+    display: flex;
+
+    & h3 {
+        color: $title-text-color;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+    
+        margin-top: 30px;
+    }
+    & p {
+        font-size: 14px;
+        line-height: 1.7;
+    
+        margin-top: 10px;
+    }
+
+    & li + li {
+        margin-left: 30px;
+    }
+
+    &-icon {
+        display: flex;
+        height: 120px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+}
