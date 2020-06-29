@@ -438,7 +438,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  color: var(--title-text-color);
+  color: #212121;
   background-color: #F5F4FA;
   padding-left: 22px;
   padding-right: 22px;
@@ -452,8 +452,8 @@ body {
 }
 
 .filter:hover, .filter:focus {
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196F3;
 }
 
 .portfolio {
