@@ -52,7 +52,7 @@
     <main>
 
     <!-- Форма заказа услуги -->
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
         <form class="order-form" autocomplete="off">
             <h1>Оставьте свои данные, мы вам перезвоним</h1>
 
@@ -94,7 +94,7 @@
             </label>
 
             <button class="form-button" type="submit">Отправить</button>
-            <button type="button" class="close">
+            <button type="button" class="close" data-modal-close>
             </button>
         </form>
     </div>
@@ -103,7 +103,7 @@
             <section class="section-hero overlay">   
                 <div class="centered">
                     <h1 class="hero-text">эффективные решения <br> для вашего бизнеса</h1>
-                    <button type="button" class="hero-button">Заказать услугу</button>
+                    <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
                 </div>    
                 
                                
@@ -502,6 +502,7 @@
         <p class="copyright">2020 | Developed by GoIT Students </p>
     </footer>
 
+    <script src="./js/modal.js"></script>
     
 </body>
 </html>
